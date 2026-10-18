@@ -67,4 +67,15 @@ public class DynamicArray
         return size; //so we can clearly see the size of our array when our main is running
     }
 
-    
+    //this next method will allow our program to print only the data our array has without showing us the empty slots
+    public void print()
+    {
+        System.out.println("[ ");
+
+        for (int i = 0; i < size; i++)
+        {
+            System.out.println(data[i] + " ");
+        }
+
+        System.out.println("]");
+    }
