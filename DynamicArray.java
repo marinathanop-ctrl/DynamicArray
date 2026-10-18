@@ -27,7 +27,7 @@ public class DynamicArray
     {
         if (index < 0 || index >= size)
         {
-            throw new IndexOutOfBoundsException("Invalid inex:" + index);
+            throw new IndexOutOfBoundsException("Invalid index:" + index);
         }
 
         return data[index];
@@ -38,7 +38,7 @@ public class DynamicArray
     {
         if(index < 0 || index >= size)
         {
-             throw new IndexOutOfBoundsException("Invalid inex:" + index);
+             throw new IndexOutOfBoundsException("Invalid index:" + index);
         }
 
         for(int i = index; i< size-1; i++)
