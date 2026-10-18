@@ -51,5 +51,13 @@ public class DynamicArray
     //this one is needed so the array can get bigger when more space is needed
     private void resize()
     {
-        capacity *= 2;
+        capacity *= 2; //it doubles the capacity so we can be sure the array won't have any problems accepting all the new data
+        int[] newData = new int[capacity]; //making a new, bigger array
+
+        for (int i = 0; i < size; i++)
+        {
+            newData[i] = data[i];        
+        } //this for loop copies all the old data we had in our origina array
+
+        data = newData; // we change up our old array with this new, bigger one that still holds older data that was originally in our old array
     }
