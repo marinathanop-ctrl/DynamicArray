@@ -61,3 +61,10 @@ public class DynamicArray
 
         data = newData; // we change up our old array with this new, bigger one that still holds older data that was originally in our old array
     }
+
+    public int size()
+    {
+        return size; //so we can clearly see the size of our array when our main is running
+    }
+
+    
