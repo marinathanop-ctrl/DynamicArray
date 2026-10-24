@@ -19,7 +19,7 @@ public class Main
         array1.print();
 
         //checking the getter
-        System.out.println("For example, the element at index 2 is: " arrayy1.get(2));
+        System.out.println("For example, the element at index 2 is: " + array1.get(2));
 
         array1.remove(1);
         System.println("Using the remove method, we removed number at index 1: ");
