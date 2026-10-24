@@ -22,7 +22,7 @@ public class Main
         System.out.println("For example, the element at index 2 is: " + array1.get(2));
 
         array1.remove(1);
-        System.println("Using the remove method, we removed number at index 1: ");
+        System.out.println("Using the remove method, we removed number at index 1: ");
         array1.print();
 
         array1.add(60);
